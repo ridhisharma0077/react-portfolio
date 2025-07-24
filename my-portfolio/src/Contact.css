@@ -1,0 +1,35 @@
+.contact{
+     text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #333;
+}
+.contactflex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgcontact{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.color{
+    color: #8d5f8f;
+    text-decoration: none;
+}
+@media (max-width: 768px){
+    .contact{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+.contactflex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imgcontact{
+    margin-left: 38%;
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+}
+}

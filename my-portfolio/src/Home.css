@@ -1,0 +1,87 @@
+.image{
+    width: 220px;
+    height: 220px;
+    border-radius: 120px;
+    padding: 7px;
+    border: 1px solid #8d5f8f;
+    margin-top: 40px;
+    margin-left: 42%;
+}
+.h1{
+    text-align: center;
+     color: #333; 
+}
+.h2{
+    text-align: center;
+    color: #8d5f8f;
+}
+.p{
+    text-align: center;
+}
+.home-buttons{
+    text-align: center;
+}
+.outline{
+      height: 30px;
+    width: 30px;
+    margin-left: 15px;
+        transition: transform 0.2s, opacity 0.2s;
+}
+.outline:hover{
+transform: scale(1.1);
+opacity: 0.8;
+}
+.download:hover{
+  transform: scale(1.1);
+opacity: 0.8;
+}
+.download{
+color: #8d5f8f;
+background-color: white;
+border: #8d5f8f 1px solid;
+ margin-left: 43%;
+   border-radius: 20px;
+   margin-bottom: 30px;
+    width: 200px;
+   height: 30px;
+   margin-top: 20px; 
+   transition: transform 0.2s, opacity 0.2s;
+}
+.home-contact{
+    text-align: center;
+}
+@media (max-width: 768px){
+    .h1{
+        font-size: 25px;
+    }
+    .h2{
+        font-size: 22px;
+    }
+    .p{
+        text-align: left;
+        margin: 20px;
+    }
+    .download{
+        margin-left: 85px;
+        margin-right: 85px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    .image{
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 0px;
+    }
+    .outline{
+      height: 30px;
+    width: 30px;
+    margin-left: 15px;
+        transition: transform 0.2s, opacity 0.2s;
+}
+.outline:hover{
+transform: scale(1.1);
+opacity: 0.8;
+}
+}

@@ -1,0 +1,16 @@
+.projects{
+     text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #333;
+}
+.link{
+    text-decoration: none;
+    color: #8d5f8f;
+}
+@media (max-width: 768px){
+.projects{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+}
