@@ -1,4 +1,11 @@
 html,body{
   background-color: #fffafc;
   color: black;
+  padding-bottom: 20px;
 }
+@media (max-width: 768px){
+html,body{
+  background-color: #fffafc;
+  color: black;
+  padding-bottom: 20px;
+}}

@@ -5,7 +5,11 @@
     padding: 7px;
     border: 1px solid #8d5f8f;
     margin-top: 40px;
-    margin-left: 42%;
+}
+.home-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .h1{
     text-align: center;
@@ -50,12 +54,16 @@ border: #8d5f8f 1px solid;
 .home-contact{
     text-align: center;
 }
+
 @media (max-width: 768px){
     .h1{
-        font-size: 25px;
+        font-size: 24px;
     }
     .h2{
         font-size: 22px;
+    }
+    h3{
+        margin-top: 5px;
     }
     .p{
         text-align: left;
@@ -68,12 +76,17 @@ border: #8d5f8f 1px solid;
         padding: 0px;
     }
     .image{
-        margin-left: 70px;
-        margin-right: 70px;
         margin-bottom: 20px;
         margin-top: 20px;
-        padding: 0px;
+        padding: 10px;
+        height: 160px;
+        width: 160px;
     }
+    .home-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     .outline{
       height: 30px;
     width: 30px;
@@ -83,5 +96,8 @@ border: #8d5f8f 1px solid;
 .outline:hover{
 transform: scale(1.1);
 opacity: 0.8;
+}
+.home-buttons{
+    text-align: center;
 }
 }
